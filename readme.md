@@ -205,3 +205,37 @@ To get access_token and refresh_token, use the Login endpoint.
     }
 ]
 ```
+
+# Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/N16H7H4WK-3R/anpr.git
+   ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd anpr
+    ```
+
+3. Create a Virtual Environement:
+   - install python virtual env (venv) module and then, 
+    ```bash
+    python3 -m venv env
+    ```
+
+4. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Migrate the database:
+   ```bash
+   python manage.py migrate
+   ```
+
+6. Run the Django Server
+    ```bash
+    python manage.py runserver
+    ```
+
